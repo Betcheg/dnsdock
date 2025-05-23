@@ -174,7 +174,7 @@ it to the docker default options.
 
 - If you use systemd (present on Fedora and recent Ubuntu versions), edit
 `/lib/systemd/system/docker.service` and add the options to the command you
-will see in the `ExecStart` section, the run `sudo systemctl daemon-reload`.
+will see in the `ExecStart` section, then run `sudo systemctl daemon-reload`.
 - If you do not, Open file `/etc/default/docker` and add `--bip=172.17.0.1/24
 --dns=172.17.0.1` to `DOCKER_OPTS` variable.
 
